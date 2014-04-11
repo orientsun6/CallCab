@@ -13,6 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[[UIApplication sharedApplication] keyWindow] setBackgroundColor:[UIColor whiteColor]];
+    
     return YES;
 }
 							
